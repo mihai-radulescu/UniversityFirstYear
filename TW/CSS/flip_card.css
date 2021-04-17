@@ -1,0 +1,99 @@
+/*Game flip card*/
+
+.flip-card {
+    background-color: transparent;
+    width: 230px;
+    height: 350px;
+    perspective: 1000px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333333;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: #333333;
+  }
+  
+  .flip-card-back {
+    background-color: #bbb;
+    color:#333333;
+    transform: rotateY(180deg);
+  }
+
+.game-img {
+    width: 230px;
+    height: 250px;
+}
+
+.edit-button {
+    background-color: teal;
+
+    border-style: none;
+
+    padding: 10px 10px 10px 10px;
+
+    font-size: medium;
+}
+
+.delete-button {
+    background-color: red;
+
+    border-style: none;
+
+    padding: 10px 10px 10px 10px;
+
+    font-size: medium;
+}
+
+
+/* Respnsive */
+
+
+@media only screen and (max-width: 768px) {
+  .flip-card {
+    width: 150px;
+    height: 270px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .flip-card-front {
+    font-size: smaller;
+    font-weight: 700;
+  }
+
+  .game-img {
+    width: 150px;
+    height: 170px;
+  }
+}
+

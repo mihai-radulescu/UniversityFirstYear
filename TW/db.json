@@ -1,0 +1,44 @@
+{
+  "games": [
+    {
+      "name": "Batman Arkham City",
+      "img": "img/Batman_Arkham_City_Game_Cover.jpg",
+      "status": "Played",
+      "platform": "Steam",
+      "rating": "5 / 5",
+      "id": 1
+    },
+    {
+      "name": "Assasin's Creed Odyssey",
+      "img": "img/ac_odyssey.jpg",
+      "status": "In Progress",
+      "platform": "Uplay",
+      "rating": "3 / 5",
+      "id": 2
+    },
+    {
+      "name": "Dishonered 2",
+      "img": "img/220px-Dishonored_2_cover_art.jpg",
+      "status": "Played",
+      "platform": "Steam",
+      "rating": "4 / 5",
+      "id": 4
+    },
+    {
+      "name": "Darksiders 2",
+      "img": "img/darksiders_2.jpg",
+      "status": "Played",
+      "platform": "Epic Games Store",
+      "rating": "3 / 5",
+      "id": 5
+    },
+    {
+      "name": "Hollow Knight",
+      "img": "img/hollow_knight.jpg",
+      "status": "Played",
+      "platform": "Steam",
+      "rating": "5 / 5",
+      "id": 6
+    }
+  ]
+}

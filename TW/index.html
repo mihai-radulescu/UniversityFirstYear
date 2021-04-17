@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/main_style.css">
+    <link rel="stylesheet" href="CSS/flip_card.css">
+    <link rel="stylesheet" href="CSS\font-awesome-4.7.0\css\font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <i class="fa fa-gamepad fa-2x logo" aria-hidden="true"></i>
+        <p class="text" id="username"></p>
+    </div>
+
+    <div id="nav" class="nav">
+        <button id="button-add" class="nav-button" onclick="showForm()">
+            <i class="fa fa-plus" aria-hidden="true"></i>
+            ADD
+        </button>
+
+        <div id="form" class="form">
+            <div>
+                <label>Game name:</label>
+                <input id="nume" type="text">
+            </div>
+    
+            <div>
+                <label>Imagine:</label>
+                <input id="imagine" type="file">
+            </div>
+    
+            <div>
+                <label>Platforma:</label>
+                <select id="platforma" >
+                    <option value="def" disabled selected>Choose your option</option>
+                    <option value="Steam">Steam</option>
+                    <option value="Uplay">Uplay</option>
+                    <option value="Epic Games Store">Epic Games Store</option>
+                </select>
+            </div>
+    
+            <div>
+                <label>Status:</label>
+                <select id="status" >
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="Played">Played</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Not Played">Not Played</option>
+                </select>
+            </div>
+    
+            <div>
+                <label>Rating:</label>
+                <select id="rating" >
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="Not Played"> Not Played </option>
+                    <option value="1 / 5"> 1 / 5 </option>
+                    <option value="2 / 5"> 2 / 5 </option>
+                    <option value="3 / 5"> 3 / 5 </option>
+                    <option value="4 / 5"> 4 / 5 </option>
+                    <option value="5 / 5"> 5 / 5 </option>
+                </select>
+            </div>
+    
+            <div>
+                <button id="submit-button">
+                    Confirm
+                </button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div id="main" class="main">`
+    </div>
+
+    <div class="footer"> Game on! :)</div>
+</body>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/index.js"></script>
+</html>
+
+
+
+<!--
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/ac_odyssey.jpg" alt="Avatar" class="game-img">
+                    <h2>Assasin's Creed Odyssey</h2>
+                </div>
+                <div class="flip-card-back">
+
+                    <h1>Steam</h1>
+                    <h2>Status</h2>
+                    <h3>Rating: 4 / 5</h3>
+
+                    <button class="edit-button">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        Edit
+                    </button>
+
+                    <button class="delete-button">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                        Delete
+                    </button>
+
+                </div>
+            </div>
+        </div>
+-->

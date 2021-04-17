@@ -1,0 +1,113 @@
+Verificarea cuvintelor:
+
+1 --- Cuvantul "aba" apartine limbajului
+0 --- Cuvantul "abc" nu apartine limbajului
+0 --- Cuvantul "abb" nu apartine limbajului
+1 --- Cuvantul "ababb" apartine limbajului
+0 --- Cuvantul "baacaab" nu apartine limbajului
+0 --- Cuvantul "aaa" nu apartine limbajului
+
+----------------------------------------------------------------
+
+Generarea primelor 100 cuvinte in ordine lexicografica:
+
+1: b
+2: aab
+3: aba
+4: baa
+5: bbb
+6: aaaab
+7: aaaba
+8: aabaa
+9: aabbb
+10: abbab
+11: abbba
+12: abaaa
+13: ababb
+14: babab
+15: babba
+16: baaaa
+17: baabb
+18: bbaab
+19: bbaba
+20: bbbaa
+21: bbbbb
+22: aaaaaab
+23: aaaaaba
+24: aaaabaa
+25: aaaabbb
+26: aaabbab
+27: aaabbba
+28: aaabaaa
+29: aaababb
+30: aababab
+31: aababba
+32: aabaaaa
+33: aabaabb
+34: aabbaab
+35: aabbaba
+36: aabbbaa
+37: aabbbbb
+38: abbaaab
+39: abbaaba
+40: abbabaa
+41: abbabbb
+42: abbbbab
+43: abbbbba
+44: abbbaaa
+45: abbbabb
+46: abaabab
+47: abaabba
+48: abaaaaa
+49: abaaabb
+50: ababaab
+51: abababa
+52: ababbaa
+53: ababbbb
+54: babaaab
+55: babaaba
+56: bababaa
+57: bababbb
+58: babbbab
+59: babbbba
+60: babbaaa
+61: babbabb
+62: baaabab
+63: baaabba
+64: baaaaaa
+65: baaaabb
+66: baabaab
+67: baababa
+68: baabbaa
+69: baabbbb
+70: bbaaaab
+71: bbaaaba
+72: bbaabaa
+73: bbaabbb
+74: bbabbab
+75: bbabbba
+76: bbabaaa
+77: bbababb
+78: bbbabab
+79: bbbabba
+80: bbbaaaa
+81: bbbaabb
+82: bbbbaab
+83: bbbbaba
+84: bbbbbaa
+85: bbbbbbb
+86: aaaaaaaab
+87: aaaaaaaba
+88: aaaaaabaa
+89: aaaaaabbb
+90: aaaaabbab
+91: aaaaabbba
+92: aaaaabaaa
+93: aaaaababb
+94: aaaababab
+95: aaaababba
+96: aaaabaaaa
+97: aaaabaabb
+98: aaaabbaab
+99: aaaabbaba
+100: aaaabbbaa

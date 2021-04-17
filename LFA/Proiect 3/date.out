@@ -1,0 +1,34 @@
+Gramatica cu epsilon (initiala):
+B -> $ cS 
+A -> aA aS 
+S -> $ a aA bB 
+
+------------------------------------------------------------------
+
+Gramatica fara epsilon:
+B -> c cS 
+A -> a aA aS 
+S1 -> $ a aA b bB 
+S -> a aA b bB 
+
+------------------------------------------------------------------
+
+NFA fara epsilon din gramatica regulata:
+
+Numar stari: 5
+Stare initiala: 4
+Stari finale: 4 5 
+
+1 2 c
+1 5 c
+2 3 a
+2 5 a
+2 1 b
+2 5 b
+3 2 a
+3 3 a
+3 5 a
+4 3 a
+4 5 a
+4 1 b
+4 5 b

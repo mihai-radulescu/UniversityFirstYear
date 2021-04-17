@@ -1,0 +1,84 @@
+Testul 1: n = 1000000 si maxiumul = 100000
+
+Bubble Sort: FAIL
+
+Merge Sort: 3799 ms
+
+Quick Sort: 276 ms
+
+Count Sort: 40 ms
+
+Radix Sort: 228 ms
+
+----------------------------------------------------
+
+Testul 2: n = 10000 si maxiumul = 99999999
+
+Bubble Sort: FAIL
+
+Merge Sort: 36 ms
+
+Quick Sort: 4 ms
+
+Count Sort: 0 ms
+
+Radix Sort: 4 ms
+
+----------------------------------------------------
+
+Testul 3: n = 10000000 si maxiumul = 1000
+
+Bubble Sort: FAIL
+
+Merge Sort: FAIL
+
+Quick Sort: FAIL
+
+Count Sort: FAIL
+
+Radix Sort: FAIL
+
+----------------------------------------------------
+
+Testul 4: n = 10 si maxiumul = 2
+
+Bubble Sort: 0 ms
+
+Merge Sort: 0 ms
+
+Quick Sort: 0 ms
+
+Count Sort: 0 ms
+
+Radix Sort: 0 ms
+
+----------------------------------------------------
+
+Testul 5: n = 100000 si maxiumul = 10000
+
+Bubble Sort: FAIL
+
+Merge Sort: 392 ms
+
+Quick Sort: 24 ms
+
+Count Sort: 4 ms
+
+Radix Sort: 24 ms
+
+----------------------------------------------------
+
+Testul 6: n = 1000000 si maxiumul = 1000000
+
+Bubble Sort: FAIL
+
+Merge Sort: 3947 ms
+
+Quick Sort: 276 ms
+
+Count Sort: 40 ms
+
+Radix Sort: 228 ms
+
+----------------------------------------------------
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1585400746 source:d:\anul 1- facultate\semestru 2\proiecte\asd\proiect 1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<chrono>
+	<algorithm>
+

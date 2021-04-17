@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585239522 source:d:\anul 1- facultate\semestru 2\proiecte\lfa\proiect 1\main.cpp
+	<iostream>
+	<vector>
+	<bits/stdc++.h>
+
